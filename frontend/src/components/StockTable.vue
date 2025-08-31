@@ -1,8 +1,8 @@
 <template>
-  <div class="min-h-screen w-full p-4 bg-gray-100">
+  <div class="min-h-screen w-full p-4 bg-blue-100">
     <!-- Header with SBEM Malkangiri, Refresh or Ledger, and Admin -->
     <div
-      class="flex items-center justify-between mb-4 bg-white py-2 px-4 shadow"
+      class="flex items-center justify-between mb-4 bg-blue-50 py-2 px-4 shadow"
     >
       <div class="flex items-center space-x-2">
         <img
@@ -22,8 +22,8 @@
         />
         <div v-else-if="!isAdmin && !isSuperAdmin" class="w-10 h-10"></div>
       </div>
-      <div class="text-2xl font-bold text-center flex-1 text-gray-800">
-        SBEM Rayagada
+      <div class="text-2xl font-bold text-center flex-1 text-blue-900">
+        SBEM Malkangiri
       </div>
       <img
         v-if="!isAdmin && !isSuperAdmin"
@@ -38,7 +38,7 @@
     <!-- Ledger View -->
     <div
       v-if="showLedgerView"
-      class="text-center text-gray-800 font-bold text-lg mt-4"
+      class="text-center text-blue-900 font-bold text-lg mt-4"
     >
       Tally Ledger Work in Progress
     </div>
@@ -49,9 +49,9 @@
         <button
           @click="selectGroup('All')"
           :class="[
-            'flex items-center justify-center h-10 rounded-lg bg-white text-gray-800 font-bold text-sm w-[25%] sm:w-auto px-3',
+            'flex items-center justify-center h-10 rounded-lg bg-blue-50 text-blue-900 font-bold text-sm w-[25%] sm:w-auto px-3',
             selectedGroup === 'All'
-              ? 'bg-white text-gray-800'
+              ? 'bg-blue-50 text-blue-900'
               : 'hover:bg-gray-200',
           ]"
         >
@@ -62,9 +62,9 @@
           :key="brand.name"
           @click="selectGroup(brand.name)"
           :class="[
-            'flex items-center justify-center h-10 rounded-lg bg-white text-gray-800 font-bold text-sm w-[25%] sm:w-auto px-3',
+            'flex items-center justify-center h-10 rounded-lg bg-blue-50 text-blue-900 font-bold text-sm w-[25%] sm:w-auto px-3',
             selectedGroup === brand.name
-              ? 'bg-white text-gray-800'
+              ? 'bg-blue-50 text-blue-900'
               : 'hover:bg-gray-200',
           ]"
         >
@@ -77,9 +77,9 @@
         <button
           @click="selectGroup('Kids')"
           :class="[
-            'flex items-center justify-center h-10 rounded-lg bg-white text-gray-800 font-bold text-sm w-[25%] sm:w-auto px-3',
+            'flex items-center justify-center h-10 rounded-lg bg-blue-50 text-blue-900 font-bold text-sm w-[25%] sm:w-auto px-3',
             selectedGroup === 'Kids'
-              ? 'bg-white text-gray-800'
+              ? 'bg-blue-50 text-blue-900'
               : 'hover:bg-gray-200',
           ]"
         >
@@ -88,9 +88,9 @@
         <button
           @click="selectGroup('Hawai')"
           :class="[
-            'flex items-center justify-center h-10 rounded-lg bg-white text-gray-800 font-bold text-sm w-[25%] sm:w-auto px-3',
+            'flex items-center justify-center h-10 rounded-lg bg-blue-50 text-blue-900 font-bold text-sm w-[25%] sm:w-auto px-3',
             selectedGroup === 'Hawai'
-              ? 'bg-white text-gray-800'
+              ? 'bg-blue-50 text-blue-900'
               : 'hover:bg-gray-200',
           ]"
         >
@@ -99,9 +99,9 @@
         <button
           @click="selectGroup('Loose')"
           :class="[
-            'flex items-center justify-center h-10 rounded-lg bg-white text-gray-800 font-bold text-sm w-[25%] sm:w-auto px-3',
+            'flex items-center justify-center h-10 rounded-lg bg-blue-50 text-blue-900 font-bold text-sm w-[25%] sm:w-auto px-3',
             selectedGroup === 'Loose'
-              ? 'bg-white text-gray-800'
+              ? 'bg-blue-50 text-blue-900'
               : 'hover:bg-gray-200',
           ]"
         >
@@ -110,9 +110,9 @@
         <button
           @click="selectGroup('Box')"
           :class="[
-            'flex items-center justify-center h-10 rounded-lg bg-white text-gray-800 font-bold text-sm w-[25%] sm:w-auto px-3',
+            'flex items-center justify-center h-10 rounded-lg bg-blue-50 text-blue-900 font-bold text-sm w-[25%] sm:w-auto px-3',
             selectedGroup === 'Box'
-              ? 'bg-white text-gray-800'
+              ? 'bg-blue-50 text-blue-900'
               : 'hover:bg-gray-200',
           ]"
         >
@@ -121,9 +121,9 @@
         <button
           @click="selectGroup('Shoe')"
           :class="[
-            'flex items-center justify-center h-10 rounded-lg bg-white text-gray-800 font-bold text-sm w-[25%] sm:w-auto px-3',
+            'flex items-center justify-center h-10 rounded-lg bg-blue-50 text-blue-900 font-bold text-sm w-[25%] sm:w-auto px-3',
             selectedGroup === 'Shoe'
-              ? 'bg-white text-gray-800'
+              ? 'bg-blue-50 text-blue-900'
               : 'hover:bg-gray-200',
           ]"
         >
@@ -132,9 +132,9 @@
         <button
           @click="selectGroup('Maruti')"
           :class="[
-            'flex items-center justify-center h-10 rounded-lg bg-white text-gray-800 font-bold text-sm w-[25%] sm:w-auto px-3',
+            'flex items-center justify-center h-10 rounded-lg bg-blue-50 text-blue-900 font-bold text-sm w-[25%] sm:w-auto px-3',
             selectedGroup === 'Maruti'
-              ? 'bg-white text-gray-800'
+              ? 'bg-blue-50 text-blue-900'
               : 'hover:bg-gray-200',
           ]"
         >
@@ -143,9 +143,9 @@
         <button
           @click="selectGroup('Magnet')"
           :class="[
-            'flex items-center justify-center h-10 rounded-lg bg-white text-gray-800 font-bold text-sm w-[25%] sm:w-auto px-3',
+            'flex items-center justify-center h-10 rounded-lg bg-blue-50 text-blue-900 font-bold text-sm w-[25%] sm:w-auto px-3',
             selectedGroup === 'Magnet'
-              ? 'bg-white text-gray-800'
+              ? 'bg-blue-50 text-blue-900'
               : 'hover:bg-gray-200',
           ]"
         >
@@ -154,9 +154,9 @@
         <button
           @click="selectGroup('rktraders')"
           :class="[
-            'flex items-center justify-center h-10 rounded-lg bg-white text-gray-800 font-bold text-sm w-[25%] sm:w-auto px-3',
+            'flex items-center justify-center h-10 rounded-lg bg-blue-50 text-blue-900 font-bold text-sm w-[25%] sm:w-auto px-3',
             selectedGroup === 'rktraders'
-              ? 'bg-white text-gray-800'
+              ? 'bg-blue-50 text-blue-900'
               : 'hover:bg-gray-200',
           ]"
         >
@@ -165,9 +165,9 @@
         <button
           @click="selectGroup('jkplastic')"
           :class="[
-            'flex items-center justify-center h-10 rounded-lg bg-white text-gray-800 font-bold text-sm w-[25%] sm:w-auto px-3',
+            'flex items-center justify-center h-10 rounded-lg bg-blue-50 text-blue-900 font-bold text-sm w-[25%] sm:w-auto px-3',
             selectedGroup === 'jkplastic'
-              ? 'bg-white text-gray-800'
+              ? 'bg-blue-50 text-blue-900'
               : 'hover:bg-gray-200',
           ]"
         >
@@ -176,9 +176,9 @@
         <button
           @click="selectGroup('airson')"
           :class="[
-            'flex items-center justify-center h-10 rounded-lg bg-white text-gray-800 font-bold text-sm w-[25%] sm:w-auto px-3',
+            'flex items-center justify-center h-10 rounded-lg bg-blue-50 text-blue-900 font-bold text-sm w-[25%] sm:w-auto px-3',
             selectedGroup === 'airson'
-              ? 'bg-white text-gray-800'
+              ? 'bg-blue-50 text-blue-900'
               : 'hover:bg-gray-200',
           ]"
         >
@@ -190,14 +190,14 @@
           v-model="searchQuery"
           type="text"
           placeholder="Search products..."
-          class="w-full px-4 py-2 rounded-lg bg-white text-gray-800 border border-gray-300 focus:outline-none focus:border-blue-500"
+          class="w-full px-4 py-2 rounded-lg bg-blue-50 text-blue-900 border border-blue-300 focus:outline-none focus:border-blue-500"
         />
       </div>
       <div class="mb-4 flex flex-col sm:flex-row gap-2">
         <select
           v-model="selectedGroup"
           @change="selectGroup($event.target.value)"
-          class="w-full sm:w-1/2 px-4 py-2 rounded-lg bg-white text-gray-800 border border-gray-300 focus:outline-none focus:border-blue-500 text-sm"
+          class="w-full sm:w-1/2 px-4 py-2 rounded-lg bg-blue-50 text-blue-900 border border-blue-300 focus:outline-none focus:border-blue-500 text-sm"
         >
           <option value="All">All</option>
           <option value="Kids">Kids</option>
@@ -220,7 +220,7 @@
               'flex-1 py-2 rounded-lg text-sm',
               viewMode === 'list'
                 ? 'bg-blue-500 text-white'
-                : 'bg-white text-gray-800 hover:bg-gray-100',
+                : 'bg-blue-50 text-blue-900 hover:bg-blue-100',
             ]"
           >
             List View
@@ -231,7 +231,7 @@
               'flex-1 py-2 rounded-lg text-sm',
               viewMode === 'image'
                 ? 'bg-blue-500 text-white'
-                : 'bg-white text-gray-800 hover:bg-gray-100',
+                : 'bg-blue-50 text-blue-900 hover:bg-blue-100',
             ]"
           >
             Image View
@@ -241,7 +241,7 @@
       <div
         class="flex justify-between items-center mb-6 flex-col sm:flex-row gap-2"
       >
-        <span class="text-sm text-center sm:text-left text-gray-600">
+        <span class="text-sm text-center sm:text-left text-blue-700">
           Last Refreshed:
           {{
             lastRefresh
@@ -270,7 +270,7 @@
               <tr class="group-row" @click="toggleGroup(index)">
                 <td
                   colspan="3"
-                  class="text-center bg-gray-100 text-gray-800 font-bold border-b border-gray-300"
+                  class="text-center bg-blue-100 text-blue-900 font-bold border-b border-blue-300"
                 >
                   {{ group.groupName }}
                 </td>
@@ -341,7 +341,7 @@
       <div v-else>
         <div v-for="(group, index) in filteredStockData" :key="index">
           <div
-            class="text-center bg-gray-100 text-gray-800 font-bold py-2 mb-2 border shadow"
+            class="text-center bg-blue-100 text-blue-900 font-bold py-2 mb-2 border shadow"
             @click="toggleGroup(index)"
           >
             {{ group.groupName }}
@@ -353,7 +353,7 @@
               class="w-1/2 sm:w-1/3 md:w-1/4 px-2 mb-4"
             >
               <div
-                class="bg-white border border-gray-200 p-2 flex flex-col h-[280px] sm:h-[330px]"
+                class="bg-blue-50 border border-gray-200 p-2 flex flex-col h-[280px] sm:h-[330px]"
               >
                 <div
                   v-if="product.imageUrl"
@@ -404,7 +404,7 @@
                 </div>
                 <div
                   v-else
-                  class="w-full h-[200px] sm:h-[250px] flex items-center justify-center text-gray-500 text-sm bg-gray-100 flex-shrink-0"
+                  class="w-full h-[200px] sm:h-[250px] flex items-center justify-center text-blue-600 text-sm bg-blue-100 flex-shrink-0"
                 >
                   No Image
                 </div>
@@ -412,11 +412,11 @@
                   class="mt-1 text-center flex flex-col flex-grow justify-between p-1"
                 >
                   <p
-                    class="text-gray-800 text-xs font-sans font-light tracking-wide line-clamp-2 leading-tight"
+                    class="text-blue-900 text-xs font-sans font-light tracking-wide line-clamp-2 leading-tight"
                   >
                     {{ product.productName }}
                   </p>
-                  <p class="text-gray-600 text-xs font-sans font-light">
+                  <p class="text-blue-700 text-xs font-sans font-light">
                     Qty: {{ product.quantity }}
                   </p>
                 </div>
@@ -434,12 +434,12 @@
       </div>
       <div
         v-if="showImagePopup"
-        class="fixed inset-0 bg-white bg-opacity-50 flex flex-col z-50"
+        class="fixed inset-0 bg-blue-50 bg-opacity-50 flex flex-col z-50"
         @touchstart="handleTouchStart"
         @touchend="handleTouchEnd"
       >
         <div
-          class="fixed top-0 left-0 right-0 bg-white py-4 border-4 border-white z-50 flex justify-center"
+          class="fixed top-0 left-0 right-0 bg-blue-50 py-4 border-4 border-white z-50 flex justify-center"
         >
           <span class="text-black font-bold text-lg">{{
             currentGroupName
@@ -447,7 +447,7 @@
         </div>
         <div class="flex-grow flex items-center justify-center px-4 py-16">
           <div
-            class="relative w-full max-w-3xl bg-white bg-opacity-90 rounded-lg shadow-lg"
+            class="relative w-full max-w-3xl bg-blue-50 bg-opacity-90 rounded-lg shadow-lg"
           >
             <img
               v-if="currentProduct.imageUrl"
@@ -455,25 +455,25 @@
               alt="Enlarged Image"
               class="w-full max-h-[70vh] object-contain rounded-lg"
             />
-            <div v-else class="text-gray-500 text-center py-4">No Image</div>
+            <div v-else class="text-blue-600 text-center py-4">No Image</div>
             <button
               v-if="currentProductIndex > 0"
               @click="navigateImage(-1)"
-              class="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-200 text-gray-800 rounded-full w-8 h-8 flex items-center justify-center text-lg"
+              class="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-200 text-blue-900 rounded-full w-8 h-8 flex items-center justify-center text-lg"
             >
               ←
             </button>
             <button
               v-if="currentProductIndex < currentGroupProducts.length - 1"
               @click="navigateImage(1)"
-              class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-200 text-gray-800 rounded-full w-8 h-8 flex items-center justify-center text-lg"
+              class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-200 text-blue-900 rounded-full w-8 h-8 flex items-center justify-center text-lg"
             >
               →
             </button>
           </div>
         </div>
         <div
-          class="fixed bottom-0 left-0 right-0 bg-white py-4 border-4 border-white z-50"
+          class="fixed bottom-0 left-0 right-0 bg-blue-50 py-4 border-4 border-white z-50"
         >
           <div class="flex flex-col px-4">
             <span class="text-black font-bold text-lg truncate text-center">
