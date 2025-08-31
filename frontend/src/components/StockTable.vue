@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen w-full p-4 bg-gray-100">
-    <!-- Header with SBEM Rayagada, Refresh or Ledger, and Admin -->
+    <!-- Header with SBEM Malkangiri, Refresh or Ledger, and Admin -->
     <div
       class="flex items-center justify-between mb-4 bg-white py-2 px-4 shadow"
     >
