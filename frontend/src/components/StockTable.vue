@@ -74,7 +74,7 @@
             class="w-full h-full object-contain"
           />
         </button>
-        <button
+        <!-- <button
           @click="selectGroup('Kids')"
           :class="[
             'flex items-center justify-center h-10 rounded-lg bg-blue-50 text-blue-900 font-bold text-sm w-[25%] sm:w-auto px-3',
@@ -183,7 +183,7 @@
           ]"
         >
           Airson
-        </button>
+        </button> -->
       </div>
       <div class="mb-4">
         <input
@@ -534,26 +534,26 @@ export default {
           name: "Paragon",
           logo: "https://res.cloudinary.com/dg365ewal/image/upload/v1749667072/paragonLogo_rqk3hu.webp",
         },
-        {
-          name: "Reliance",
-          logo: "https://res.cloudinary.com/dg365ewal/image/upload/v1749667072/relianceLogo_bvgwwz.png",
-        },
-        {
-          name: "Cubix",
-          logo: "https://res.cloudinary.com/dg365ewal/image/upload/v1749667073/cubixLogo_bwawj3.jpg",
-        },
-        {
-          name: "Florex",
-          logo: "https://res.cloudinary.com/dg365ewal/image/upload/v1749667072/florexLogo_wn50tj.jpg",
-        },
-        {
-          name: "Eeken",
-          logo: "https://res.cloudinary.com/dg365ewal/image/upload/v1749668232/eekenLogo_rg5xwa.webp",
-        },
-        {
-          name: "Escoute",
-          logo: "https://res.cloudinary.com/dg365ewal/image/upload/v1749667072/escouteLogo_maieji.jpg",
-        },
+        //   {
+        //     name: "Reliance",
+        //     logo: "https://res.cloudinary.com/dg365ewal/image/upload/v1749667072/relianceLogo_bvgwwz.png",
+        //   },
+        //   {
+        //     name: "Cubix",
+        //     logo: "https://res.cloudinary.com/dg365ewal/image/upload/v1749667073/cubixLogo_bwawj3.jpg",
+        //   },
+        //   {
+        //     name: "Florex",
+        //     logo: "https://res.cloudinary.com/dg365ewal/image/upload/v1749667072/florexLogo_wn50tj.jpg",
+        //   },
+        //   {
+        //     name: "Eeken",
+        //     logo: "https://res.cloudinary.com/dg365ewal/image/upload/v1749668232/eekenLogo_rg5xwa.webp",
+        //   },
+        //   {
+        //     name: "Escoute",
+        //     logo: "https://res.cloudinary.com/dg365ewal/image/upload/v1749667072/escouteLogo_maieji.jpg",
+        //   },
       ],
       paragonSubgroups: [
         "Walkaholic",

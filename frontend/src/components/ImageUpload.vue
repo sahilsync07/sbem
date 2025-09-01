@@ -38,7 +38,7 @@ export default {
       uploading: false,
       uploadError: null,
       uploadedImageUrl: null,
-      cloudinary: new Cloudinary({ cloud: { cloudName: "dg365ewal" } }),
+      cloudinary: new Cloudinary({ cloud: { cloudName: "dslzkpvlm" } }),
     };
   },
   methods: {
