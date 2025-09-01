@@ -54,7 +54,7 @@ export default {
         formData.append("file", this.file);
         formData.append("upload_preset", "sbem-stock");
         const response = await fetch(
-          "https://api.cloudinary.com/v1_1/dg365ewal/image/upload",
+          "https://api.cloudinary.com/v1_1/dslzkpvlm/image/upload",
           {
             method: "POST",
             body: formData,
