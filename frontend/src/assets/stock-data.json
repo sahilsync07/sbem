@@ -4,16 +4,16 @@
     "products": [
       {
         "productName": "PARAGON SDL 9085 GENTS ORG (6X10) MRP649.50/-",
-        "quantity": 18,
+        "quantity": 90,
         "rate": 367.94,
-        "amount": -6622.93,
+        "amount": -33114.61,
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756713704/6262354453109785146.jpg"
       },
       {
         "productName": "PARAGON SDNL 9085 GENTS SGN  (6X10) MRP649.50/-",
-        "quantity": 18,
+        "quantity": 90,
         "rate": 367.94,
-        "amount": -6622.93,
+        "amount": -33114.61,
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756713756/6262354453109785147.jpg"
       },
       {
@@ -25,13 +25,20 @@
       },
       {
         "productName": "PARAGON SNDL 9085 GENTS BLU (6X10) MRP649.50/-",
-        "quantity": 18,
+        "quantity": 54,
         "rate": 367.94,
-        "amount": -6622.93,
+        "amount": -19868.77,
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756713800/6262354453109785148.jpg"
+      },
+      {
+        "productName": "PARAGON SNDL 9097 GENTS NYB (6X10)MRP559/-",
+        "quantity": 18,
+        "rate": 316.67,
+        "amount": -5700.06,
+        "imageUrl": null
       }
     ],
-    "totalAmount": -64169.36
+    "totalAmount": -208027.87999999998
   },
   {
     "groupName": "PARAGON HAWAI",
@@ -52,16 +59,16 @@
       },
       {
         "productName": "PARAGON CUSHION BLU (1X3) MRP124/-",
-        "quantity": 180,
+        "quantity": 300,
         "rate": 77.38,
-        "amount": -13928.42,
+        "amount": -23214.02,
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756713867/Cushion_1.jpg"
       },
       {
         "productName": "PARAGON CUSHION  BLU (4X5) MRP138/-",
-        "quantity": 240,
+        "quantity": 432,
         "rate": 86.11,
-        "amount": -20666.4,
+        "amount": -37199.52,
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756713867/Cushion_1.jpg"
       },
       {
@@ -80,9 +87,9 @@
       },
       {
         "productName": "PARAGON CUSHION BLU (6X8) MRP139/-",
-        "quantity": 144,
+        "quantity": 384,
         "rate": 86.74,
-        "amount": -12490.57,
+        "amount": -33308.17,
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756713867/Cushion_1.jpg"
       },
       {
@@ -107,20 +114,41 @@
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756713867/Cushion_1.jpg"
       }
     ],
-    "totalAmount": -209637.72
+    "totalAmount": -302910.36
   },
   {
     "groupName": "PARAGON MAX",
     "products": [
       {
-        "productName": "PARAGON MAX 9613 GENTS TAN (6X10) MRP504/-",
-        "quantity": 36,
+        "productName": "PARAGON MAX 9549 GENTS BLK (6X9) MRP704/-",
+        "quantity": 18,
+        "rate": 365.38,
+        "amount": -6576.84,
+        "imageUrl": null
+      },
+      {
+        "productName": "PARAGON MAX 9613 GENTS BLK (6X10) MRP504/-",
+        "quantity": 18,
         "rate": 285.52,
-        "amount": -10278.73,
+        "amount": -5139.36,
+        "imageUrl": null
+      },
+      {
+        "productName": "PARAGON MAX 9613 GENTS BRN (6X10) MRP504/-",
+        "quantity": 18,
+        "rate": 285.52,
+        "amount": -5139.36,
+        "imageUrl": null
+      },
+      {
+        "productName": "PARAGON MAX 9613 GENTS TAN (6X10) MRP504/-",
+        "quantity": 72,
+        "rate": 285.52,
+        "amount": -20557.45,
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756713911/6206233086115561343.jpg"
       }
     ],
-    "totalAmount": -20557.46
+    "totalAmount": -74826.02
   },
   {
     "groupName": "PARALITE",
@@ -162,16 +190,30 @@
       },
       {
         "productName": "PARALITE 1190 GENTS BLK (6X9) MRP179/-",
-        "quantity": 72,
+        "quantity": 144,
         "rate": 109.91,
-        "amount": -7913.53,
+        "amount": -15827.04,
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756713993/1190_BLK.jpg"
       },
       {
+        "productName": "PARALITE 1210 GENTS BLK (6X8) MRP169/-",
+        "quantity": 24,
+        "rate": 103.77,
+        "amount": -2490.48,
+        "imageUrl": null
+      },
+      {
+        "productName": "PARALITE 1210 GENTS BLK (6X9) MRP169/-",
+        "quantity": 24,
+        "rate": 103.77,
+        "amount": -2490.48,
+        "imageUrl": null
+      },
+      {
         "productName": "PARALITE 1215 LADIES BKR (4X8) MRP149/-",
-        "quantity": 108,
+        "quantity": 144,
         "rate": 91.49,
-        "amount": -9880.93,
+        "amount": -13174.57,
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756714039/PARALITE_1215_NAVYBLUE_PINK.jpg"
       },
       {
@@ -183,9 +225,9 @@
       },
       {
         "productName": "PARALITE 1220 LADIES BKR (4X8) MRP149/-",
-        "quantity": 72,
+        "quantity": 108,
         "rate": 91.49,
-        "amount": -6587.29,
+        "amount": -9880.93,
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756714053/1220_BLK_RED.jpg"
       },
       {
@@ -204,9 +246,9 @@
       },
       {
         "productName": "PARALITE 1250 GENTS BKR (6X9) MRP249/-",
-        "quantity": 48,
+        "quantity": 72,
         "rate": 141.06,
-        "amount": -6770.89,
+        "amount": -10156.33,
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756714101/1250_RED.jpg"
       },
       {
@@ -215,6 +257,13 @@
         "rate": 141.06,
         "amount": -6770.89,
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756714148/PARAGON_1251_BLACK-RED.jpg"
+      },
+      {
+        "productName": "PARALITE 1251 GENTS BKR (6X8) MRP249/-",
+        "quantity": 72,
+        "rate": 141.06,
+        "amount": -10156.32,
+        "imageUrl": null
       },
       {
         "productName": "PARALITE 1251 GENTS BKR (6X9) MRP249/-",
@@ -232,30 +281,30 @@
       },
       {
         "productName": "PARALITE 16048 GENTS BLK (6X9) MRP354/-",
-        "quantity": 30,
+        "quantity": 90,
         "rate": 183.73,
-        "amount": -5511.91,
+        "amount": -16535.71,
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756714161/PARALITE_16048_BLACK.jpg"
       },
       {
         "productName": "PARALITE 16048 GENTS MIG (6X9) MRP354/-",
-        "quantity": 60,
+        "quantity": 90,
         "rate": 183.73,
-        "amount": -11023.81,
+        "amount": -16535.71,
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756714173/PARALITE_16048_MILITARY_GREEN.jpg"
       },
       {
         "productName": "PARALITE 16049 GENTS BLK (6X9) MRP354/-",
-        "quantity": 90,
+        "quantity": 150,
         "rate": 183.73,
-        "amount": -16535.72,
+        "amount": -27559.52,
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756714186/PARALITE_16049_BLACK.jpg"
       },
       {
         "productName": "PARALITE 16049 GENTS RYB (6X9) MRP354/-",
-        "quantity": 90,
+        "quantity": 120,
         "rate": 183.73,
-        "amount": -16535.72,
+        "amount": -22047.62,
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756714253/6325508829051208202.jpg"
       },
       {
@@ -322,7 +371,7 @@
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756714406/6233109140323025079.jpg"
       }
     ],
-    "totalAmount": -456897.0399999999
+    "totalAmount": -589086.8600000001
   },
   {
     "groupName": "P-TOES (PARALITE)",
@@ -342,6 +391,13 @@
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756713993/1190_BLK.jpg"
       },
       {
+        "productName": "P-TOES 16048 BOYS BLK (2X5) MRP314/-",
+        "quantity": 60,
+        "rate": 177.88,
+        "amount": -10672.8,
+        "imageUrl": null
+      },
+      {
         "productName": "P-TOES 16048 BOYS BLK (4X5) MRP314/-",
         "quantity": 30,
         "rate": 177.88,
@@ -356,13 +412,199 @@
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756714571/6325508829051208204.jpg"
       },
       {
+        "productName": "P-TOES 16049 BOYS BLK (2X5) MRP314/-",
+        "quantity": 30,
+        "rate": 177.88,
+        "amount": -5336.4,
+        "imageUrl": null
+      },
+      {
         "productName": "P-TOES 16049 BOYS MIG (2X5) MRP314/-",
         "quantity": 60,
         "rate": 177.88,
         "amount": -10672.81,
         "imageUrl": "https://res.cloudinary.com/dslzkpvlm/image/upload/v1756714644/16049_KIDS.jpg"
+      },
+      {
+        "productName": "P-TOES 16049 BOYS RYB (2X5) MRP314/-",
+        "quantity": 30,
+        "rate": 177.88,
+        "amount": -5336.4,
+        "imageUrl": null
       }
     ],
-    "totalAmount": -80134.9
+    "totalAmount": -122826.1
+  },
+  {
+    "groupName": "P-TOES (PU)",
+    "products": [
+      {
+        "productName": "P-TOES 6767 BOYS BRN (2X5) MRP274/-",
+        "quantity": 30,
+        "rate": 155.22,
+        "amount": -4656.6,
+        "imageUrl": null
+      }
+    ],
+    "totalAmount": -9313.2
+  },
+  {
+    "groupName": "SOLEA",
+    "products": [
+      {
+        "productName": "SOLEA 7097 LADIES MAR (4X8) MRP324/-",
+        "quantity": 30,
+        "rate": 173.82,
+        "amount": -5214.66,
+        "imageUrl": null
+      },
+      {
+        "productName": "SOLEA 7888 LADIES MAJ (4X8) MRP299/-",
+        "quantity": 30,
+        "rate": 160.4,
+        "amount": -4812.09,
+        "imageUrl": null
+      }
+    ],
+    "totalAmount": -20053.5
+  },
+  {
+    "groupName": "VERTEX",
+    "products": [
+      {
+        "productName": "PARAGON 650040 GENTS BRN(6X9) MRP239/-",
+        "quantity": 24,
+        "rate": 135.39,
+        "amount": -3249.36,
+        "imageUrl": null
+      },
+      {
+        "productName": "PARAGON 650040 GENTS TLB (6X9) MRP239/-",
+        "quantity": 24,
+        "rate": 135.39,
+        "amount": -3249.36,
+        "imageUrl": null
+      },
+      {
+        "productName": "VERTEX 6174 GENTS NVY (6X9) MRP334/-",
+        "quantity": 48,
+        "rate": 189.21,
+        "amount": -9082.08,
+        "imageUrl": null
+      },
+      {
+        "productName": "VERTEX 6198 E PV GENTS BRN (6X9) MRP249/-",
+        "quantity": 24,
+        "rate": 141.06,
+        "amount": -3385.44,
+        "imageUrl": null
+      },
+      {
+        "productName": "VERTEX 6198 E PV GENTS TAN(6X9) MRP249/-",
+        "quantity": 24,
+        "rate": 141.06,
+        "amount": -3385.44,
+        "imageUrl": null
+      },
+      {
+        "productName": "VERTEX 6259 GENTS TAN (6X9) MRP234/-",
+        "quantity": 24,
+        "rate": 132.56,
+        "amount": -3181.44,
+        "imageUrl": null
+      },
+      {
+        "productName": "VERTEX 650059 GENTS JBL (6X9) MRP319/-",
+        "quantity": 24,
+        "rate": 180.71,
+        "amount": -4337.04,
+        "imageUrl": null
+      },
+      {
+        "productName": "VERTEX 650060 GENTS OLV (6X9) MRP259/-",
+        "quantity": 24,
+        "rate": 146.72,
+        "amount": -3521.28,
+        "imageUrl": null
+      },
+      {
+        "productName": "VERTEX 650060 GENTSS BRN (6X9) MRP259/-",
+        "quantity": 24,
+        "rate": 146.72,
+        "amount": -3521.28,
+        "imageUrl": null
+      },
+      {
+        "productName": "VERTEX 6629 GENTS BRN (6X9) MRP324/-",
+        "quantity": 24,
+        "rate": 183.55,
+        "amount": -4405.2,
+        "imageUrl": null
+      },
+      {
+        "productName": "VERTEX 6629 GENTS TAN (6X9) MRP324/-",
+        "quantity": 24,
+        "rate": 183.55,
+        "amount": -4405.2,
+        "imageUrl": null
+      },
+      {
+        "productName": "VERTEX 6767 GENTS BLK (6X9) MRP299/-",
+        "quantity": 24,
+        "rate": 169.38,
+        "amount": -4065.12,
+        "imageUrl": null
+      },
+      {
+        "productName": "VERTEX 6767 GENTS BLU (6X10) MRP299/-",
+        "quantity": 24,
+        "rate": 169.38,
+        "amount": -4065.12,
+        "imageUrl": null
+      },
+      {
+        "productName": "VERTEX 6767 GENTS BLU (6X9) MRP299/-",
+        "quantity": 24,
+        "rate": 169.38,
+        "amount": -4065.12,
+        "imageUrl": null
+      },
+      {
+        "productName": "VERTEX 6767 GENTS BRN (6X9) MRP299/-",
+        "quantity": 24,
+        "rate": 169.38,
+        "amount": -4065.12,
+        "imageUrl": null
+      },
+      {
+        "productName": "VERTEX 6767 GENTS TAN (6X10) MRP299/-",
+        "quantity": 24,
+        "rate": 169.38,
+        "amount": -4065.12,
+        "imageUrl": null
+      },
+      {
+        "productName": "VERTEX 6775 GENTS TAN (6X10) MRP329/-",
+        "quantity": 24,
+        "rate": 186.38,
+        "amount": -4473.12,
+        "imageUrl": null
+      },
+      {
+        "productName": "VERTEX 6775 GENTS TAN (6X9) MRP329/-",
+        "quantity": 24,
+        "rate": 186.38,
+        "amount": -4473.12,
+        "imageUrl": null
+      },
+      {
+        "productName": "VERTEX 6867 GENTS BRN (6X9) MRP304/-",
+        "quantity": 48,
+        "rate": 172.22,
+        "amount": -8266.56,
+        "imageUrl": null
+      }
+    ],
+    "totalAmount": -166523.03999999998
   }
 ]
