@@ -1,2 +1,3 @@
-https://sahilsync07.github.io/sbemm/
+https://sahilsync07.github.io/sbem/
+
 # sbem
