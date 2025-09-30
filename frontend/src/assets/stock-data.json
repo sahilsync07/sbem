@@ -414,6 +414,26 @@
     "totalAmount": -9313.2
   },
   {
+    "groupName": "R K TRADERS",
+    "products": [
+      {
+        "productName": "NAV DURGA",
+        "quantity": 600,
+        "rate": 34.3,
+        "amount": -20580,
+        "imageUrl": null
+      },
+      {
+        "productName": "NEXUS VENTURRE",
+        "quantity": 934,
+        "rate": 38.11,
+        "amount": -35593.26,
+        "imageUrl": null
+      }
+    ],
+    "totalAmount": -112346.52000000002
+  },
+  {
     "groupName": "SHRI RAMDUT VKG",
     "products": [
       {
